@@ -1,0 +1,166 @@
+# CMake build files
+build/
+build-*/
+out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Build artifacts
+*.o
+*.so
+*.so.*
+*.a
+*.la
+*.lo
+*.dll
+*.dylib
+*.exe
+*.app
+
+# Debug and profiling files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE and editor files
+.vscode/
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Qt Creator
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
+# KDevelop
+*.kdev4
+.kdev4/
+
+# Eclipse CDT
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Backup files
+*.orig
+*.rej
+*~
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Package managers
+conan.lock
+vcpkg_installed/
+
+# Testing
+Testing/
+CTestTestfile.cmake
+
+# Coverage reports
+*.gcno
+*.gcda
+*.gcov
+coverage/
+*.info
+
+# Sanitizer outputs
+*.san
+
+# Custom build directories (uncomment if you use different build directory names)
+# debug/
+# release/
+# RelWithDebInfo/
+# MinSizeRel/
